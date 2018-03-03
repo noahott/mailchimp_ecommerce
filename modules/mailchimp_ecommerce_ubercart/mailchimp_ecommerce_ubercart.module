@@ -179,7 +179,7 @@ function mailchimp_ecommerce_ubercart_mailchimp_ecommerce_add_store($store) {
 
     foreach ($product_ids as $product_id) {
       $batch['operations'][] = [
-        'mailchimp_ecommerce_ubercart_batch_add_product',
+        'mailchimp_ecommerce_ubercart_batch_add_products',
         [
           $product_id,
         ],
